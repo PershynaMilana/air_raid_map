@@ -39,7 +39,7 @@ interface RegionData {
 }
 
 const regions: RegionData[] = [
-    { name: 'Sevastopol', image: sevastopol, regionKey: 'Sevastopol', displayName: 'A. R. Krim', textClass1: 'ukraine-map-text', textClass2: 'ukraine-map-text-none' },
+    { name: 'Sevastopol', image: sevastopol, regionKey: 'Sevastopol', displayName: 'A. R. Krym', textClass1: 'ukraine-map-text', textClass2: 'ukraine-map-text-none' },
     { name: 'Simferopol', image: simferopol, regionKey: 'Simferopol', displayName: '', textClass1: 'ukraine-map-text-none', textClass2: 'alert ukraine-map-text004' },
     { name: 'Kherson', image: kherson, regionKey: 'Херсонська область', displayName: 'Kherson', textClass1: 'ukraine-map-text-none', textClass2: 'ukraine-map-text008' },
     { name: 'Zaporizhzhia', image: zaporizhzhia, regionKey: 'Запорізька область', displayName: 'Zaporizhzhia', textClass1: 'ukraine-map-text-none', textClass2: 'ukraine-map-text012' },
