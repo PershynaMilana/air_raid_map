@@ -1,0 +1,1059 @@
+body{
+    background: #2e2e67;
+    margin: 0;
+    overflow: hidden;
+}
+
+.ukraine-map-container {
+    width: 95%;
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.alert {
+    filter: brightness(0) saturate(100%) invert(31%) sepia(78%) saturate(7141%) hue-rotate(353deg) brightness(90%) contrast(100%);
+}
+
+.ukraine-map-ukraine-map {
+    width: 1296.1646728515625px;
+    height: 862.6412353515625px;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 1;
+}
+
+
+.ukraine-map-ukraine-map img {
+    position: absolute;
+    opacity: 0.5;
+}
+
+.ukraine-map-sevastopol,
+.ukraine-map-simferopol,
+.ukraine-map-kherson,
+.ukraine-map-zaporizhzhia,
+.ukraine-map-donetsk,
+.ukraine-map-luhansk,
+.ukraine-map-kharkiv,
+.ukraine-map-sumy,
+.ukraine-map-zakarpattia,
+.ukraine-map-volyn,
+.ukraine-map-lviv,
+.ukraine-map-ivano-frankivsk,
+.ukraine-map-chernivtsi,
+.ukraine-map-ternopil,
+.ukraine-map-dnipropetrovsk,
+.ukraine-map-odesa,
+.ukraine-map-mykolaiv,
+.ukraine-map-kirovohrad,
+.ukraine-map-khmelnytskyi,
+.ukraine-map-rivne,
+.ukraine-map-chernihiv,
+.ukraine-map-poltava,
+.ukraine-map-zhytomyr,
+.ukraine-map-vinnytsia,
+.ukraine-map-cherkasy,
+.ukraine-map-kyiv,
+.ukraine-map-kyivcity {
+    width: 100px;
+    height: 100px;
+}
+
+
+.ukraine-map-text {
+    position: absolute;
+    color: black;
+    font-size: 14px;
+    opacity: 0.7;
+}
+
+.ukraine-map-sevastopol {
+    top: 820.0472412109375px;
+    left: 805.8350219726562px;
+    width: 39px;
+    height: 43px;
+    position: absolute;
+}
+.ukraine-map-text {
+    top: 750.221923828125px;
+    left: 810.5048828125px;
+    z-index: 1;
+    color: rgba(0,0,0);
+    height: auto;
+    position: absolute;
+    font-size: 24px;
+    font-style: Medium;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+    opacity: 0.7;
+}
+.ukraine-map-simferopol {
+    top: 675.42626953125px;
+    left: 741.4249877929688px;
+    width: 299px;
+    height: 187px;
+    position: absolute;
+}
+.ukraine-map-text002 {
+    top: 780.90478515625px;
+    left: 840px;
+    color: rgba(18, 31, 65, 1);
+    height: auto;
+    position: absolute;
+    font-size: 11.666030883789062px;
+    font-style: Medium;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+}
+.ukraine-map-text004 {
+    top: 734.90478515625px;
+    left: 789px;
+    color: rgb(0, 0, 0);
+    height: auto;
+    opacity: 0.7;
+    position: absolute;
+    font-size: 24px;
+    font-style: Medium;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+}
+.ukraine-map-kherson {
+    top: 532.0126953125px;
+    left: 672.2280883789062px;
+    width: 257px;
+    height: 189px;
+    position: absolute;
+}
+.ukraine-map-text006 {
+    top: 643.90478515625px;
+    left: 747px;
+    color: rgba(18, 31, 65, 1);
+    height: auto;
+    position: absolute;
+    font-size: 11.666030883789062px;
+    font-style: Medium;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+}
+.ukraine-map-text008 {
+    top: 603.90478515625px;
+    left: 779px;
+    color: rgba(18, 31, 65, 1);
+    height: auto;
+    opacity: 0.7;
+    position: absolute;
+    font-size: 24px;
+    font-style: Medium;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+}
+.ukraine-map-zaporizhzhia {
+    top: 473.999267578125px;
+    left: 860.4596557617188px;
+    width: 222px;
+    height: 217px;
+    position: absolute;
+}
+.ukraine-map-text010 {
+    top: 515.90478515625px;
+    left: 939px;
+    color: rgba(18, 31, 65, 1);
+    height: auto;
+    position: absolute;
+    font-size: 11.666030883789062px;
+    font-style: Medium;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+}
+.ukraine-map-text012 {
+    top: 555.90478515625px;
+    left: 888px;
+    color: rgba(18, 31, 65, 1);
+    height: auto;
+    opacity: 0.7;
+    position: absolute;
+    font-size: 24px;
+    font-style: Medium;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+}
+.ukraine-map-donetsk {
+    top: 355.8968505859375px;
+    left: 1032.869140625px;
+    width: 183px;
+    height: 253px;
+    position: absolute;
+}
+.ukraine-map-text014 {
+    top: 450.90478515625px;
+    left: 1098px;
+    color: rgba(18, 31, 65, 1);
+    height: auto;
+    position: absolute;
+    font-size: 11.666030883789062px;
+    font-style: Medium;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+}
+.ukraine-map-text016 {
+    top: 489.90478515625px;
+    left: 1061px;
+    color: rgba(18, 31, 65, 1);
+    height: auto;
+    opacity: 0.7;
+    position: absolute;
+    font-size: 24px;
+    font-style: Medium;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+}
+.ukraine-map-luhansk {
+    top: 261.812744140625px;
+    left: 1125.70361328125px;
+    width: 170px;
+    height: 246px;
+    position: absolute;
+}
+.ukraine-map-text018 {
+    top: 419.90478515625px;
+    left: 1196px;
+    color: rgba(18, 31, 65, 1);
+    height: auto;
+    position: absolute;
+    font-size: 11.666030883789062px;
+    font-style: Medium;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+}
+.ukraine-map-text020 {
+    top: 332.90478515625px;
+    left: 1148px;
+    color: rgba(18, 31, 65, 1);
+    height: auto;
+    opacity: 0.7;
+    position: absolute;
+    font-size: 24px;
+    font-style: Medium;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+}
+.ukraine-map-kharkiv {
+    top: 220.3411865234375px;
+    left: 911.9282836914062px;
+    width: 232px;
+    height: 212px;
+    position: absolute;
+}
+.ukraine-map-text022 {
+    top: 268.90478515625px;
+    left: 957px;
+    color: rgba(18, 31, 65, 1);
+    height: auto;
+    position: absolute;
+    font-size: 11.666030883789062px;
+    font-style: Medium;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+}
+.ukraine-map-text024 {
+    top: 310.90478515625px;
+    left: 990px;
+    color: rgba(18, 31, 65, 1);
+    height: auto;
+    opacity: 0.7;
+    position: absolute;
+    font-size: 24px;
+    font-style: Medium;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+}
+.ukraine-map-sumy {
+    top: 1.2921142578125px;
+    left: 774.805419921875px;
+    width: 196px;
+    height: 258px;
+    position: absolute;
+}
+.ukraine-map-text026 {
+    top: 174.90478515625px;
+    left: 815px;
+    color: rgba(18, 31, 65, 1);
+    height: auto;
+    opacity: 0.7;
+    position: absolute;
+    font-size: 24px;
+    font-style: Medium;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+}
+.ukraine-map-text028 {
+    top: 160.90478515625px;
+    left: 880px;
+    color: rgba(18, 31, 65, 1);
+    height: auto;
+    position: absolute;
+    font-size: 11.666030883789062px;
+    font-style: Medium;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+}
+.ukraine-map-zakarpattia {
+    top: 371.041015625px;
+    left: 0.000030517578125px;
+    width: 178px;
+    height: 129px;
+    position: absolute;
+}
+.ukraine-map-text030 {
+    top: 412.90478515625px;
+    left: 21px;
+    color: rgba(18, 31, 65, 1);
+    height: auto;
+    position: absolute;
+    font-size: 11.666030883789062px;
+    font-style: Medium;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+}
+.ukraine-map-text032 {
+    top: 450.90478515625px;
+    left: 32px;
+    color: rgba(18, 31, 65, 1);
+    height: auto;
+    opacity: 0.7;
+    position: absolute;
+    font-size: 20px;
+    font-style: Medium;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+}
+.ukraine-map-volyn {
+    top: 47.9315185546875px;
+    left: 105.3096923828125px;
+    width: 179px;
+    height: 192px;
+    position: absolute;
+}
+.ukraine-map-text034 {
+    top: 171.90478515625px;
+    left: 196px;
+    color: rgba(18, 31, 65, 1);
+    height: auto;
+    position: absolute;
+    font-size: 11.666030883789062px;
+    font-style: Medium;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+}
+.ukraine-map-text036 {
+    top: 108.90478515625px;
+    left: 149px;
+    color: rgba(18, 31, 65, 1);
+    height: auto;
+    opacity: 0.7;
+    position: absolute;
+    font-size: 24px;
+    font-style: Medium;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+}
+.ukraine-map-lviv {
+    top: 197.1484375px;
+    left: 36.11285400390625px;
+    width: 200px;
+    height: 215px;
+    position: absolute;
+}
+.ukraine-map-text038 {
+    top: 289.90478515625px;
+    left: 132px;
+    color: rgba(18, 31, 65, 1);
+    height: auto;
+    position: absolute;
+    font-size: 11.666030883789062px;
+    font-style: Medium;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+}
+.ukraine-map-text040 {
+    top: 303.90478515625px;
+    left: 76px;
+    color: rgba(18, 31, 65, 1);
+    height: auto;
+    opacity: 0.7;
+    position: absolute;
+    font-size: 24px;
+    font-style: Medium;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+}
+.ukraine-map-ivano-frankivsk {
+    top: 320.376708984375px;
+    left: 100.7982177734375px;
+    width: 151px;
+    height: 199px;
+    position: absolute;
+}
+.ukraine-map-text042 {
+    top: 384.90478515625px;
+    left: 122px;
+    color: rgba(18, 31, 65, 1);
+    height: auto;
+    position: absolute;
+    font-size: 11.666030883789062px;
+    font-style: Medium;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+}
+.ukraine-map-text044 {
+    top: 403.90478515625px;
+    left: 149px;
+    color: rgba(18, 31, 65, 1);
+    height: auto;
+    opacity: 0.7;
+    position: absolute;
+    font-size: 16px;
+    font-style: Medium;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+}
+.ukraine-map-chernivtsi {
+    top: 416.917724609375px;
+    left: 198.5464324951172px;
+    width: 188px;
+    height: 102px;
+    position: absolute;
+}
+.ukraine-map-text048 {
+    top: 469.90478515625px;
+    left: 219px;
+    color: rgba(18, 31, 65, 1);
+    height: auto;
+    position: absolute;
+    font-size: 11.666030883789062px;
+    font-style: Medium;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+}
+.ukraine-map-text050 {
+    top: 448.90478515625px;
+    left: 232px;
+    color: rgba(18, 31, 65, 1);
+    height: auto;
+    opacity: 0.7;
+    position: absolute;
+    font-size: 15px;
+    font-style: Medium;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+}
+.ukraine-map-ternopil {
+    top: 241.797119140625px;
+    left: 184.88502502441406px;
+    width: 124px;
+    height: 193px;
+    position: absolute;
+}
+.ukraine-map-text052 {
+    top: 293.90478515625px;
+    left: 229px;
+    color: rgba(18, 31, 65, 1);
+    height: auto;
+    position: absolute;
+    font-size: 11.666030883789062px;
+    font-style: Medium;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+}
+.ukraine-map-text054 {
+    top: 333.90478515625px;
+    left: 197px;
+    color: rgba(18, 31, 65, 1);
+    height: auto;
+    opacity: 0.7;
+    position: absolute;
+    font-size: 20px;
+    font-style: Medium;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+}
+.ukraine-map-dnipropetrovsk {
+    top: 360.5352783203125px;
+    left: 775.9492797851562px;
+    width: 285px;
+    height: 186px;
+    position: absolute;
+}
+.ukraine-map-text056 {
+    top: 427.90478515625px;
+    left: 853px;
+    color: rgba(18, 31, 65, 1);
+    height: auto;
+    position: absolute;
+    font-size: 11.666030883789062px;
+    font-style: Medium;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+}
+.ukraine-map-text058 {
+    top: 444.90478515625px;
+    left: 824px;
+    color: rgba(18, 31, 65, 1);
+    height: auto;
+    opacity: 0.7;
+    position: absolute;
+    font-size: 24px;
+    font-style: Medium;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+}
+.ukraine-map-odesa {
+    top: 464.59521484375px;
+    left: 435.4719543457031px;
+    width: 222px;
+    height: 316px;
+    position: absolute;
+}
+.ukraine-map-text060 {
+    top: 632.90478515625px;
+    left: 571px;
+    color: rgba(18, 31, 65, 1);
+    height: auto;
+    position: absolute;
+    font-size: 11.666030883789062px;
+    font-style: Medium;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+}
+.ukraine-map-text062 {
+    top: 555.90478515625px;
+    left: 541px;
+    color: rgba(18, 31, 65, 1);
+    height: auto;
+    opacity: 0.7;
+    position: absolute;
+    font-size: 24px;
+    font-style: Medium;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+}
+.ukraine-map-mykolaiv {
+    top: 464.6588134765625px;
+    left: 578.7373046875px;
+    width: 213px;
+    height: 189px;
+    position: absolute;
+}
+.ukraine-map-text064 {
+    top: 584.90478515625px;
+    left: 672px;
+    color: rgba(18, 31, 65, 1);
+    height: auto;
+    position: absolute;
+    font-size: 11.666030883789062px;
+    font-style: Medium;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+}
+.ukraine-map-text066 {
+    top: 523.90478515625px;
+    left: 640px;
+    color: rgba(18, 31, 65, 1);
+    height: auto;
+    opacity: 0.7;
+    position: absolute;
+    font-size: 24px;
+    font-style: Medium;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+}
+.ukraine-map-kirovohrad {
+    top: 354.795166015625px;
+    left: 545.8014526367188px;
+    width: 297px;
+    height: 161px;
+    position: absolute;
+}
+.ukraine-map-text068 {
+    top: 416.90478515625px;
+    left: 694px;
+    color: rgba(18, 31, 65, 1);
+    height: auto;
+    position: absolute;
+    font-size: 11.666030883789062px;
+    font-style: Medium;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+}
+.ukraine-map-text070 {
+    top: 435.90478515625px;
+    left: 650px;
+    color: rgba(18, 31, 65, 1);
+    height: auto;
+    opacity: 0.7;
+    position: absolute;
+    font-size: 24px;
+    font-style: Medium;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+}
+.ukraine-map-khmelnytskyi {
+    top: 205.1121826171875px;
+    left: 286.4245300292969px;
+    width: 127px;
+    height: 236px;
+    position: absolute;
+}
+.ukraine-map-text072 {
+    top: 308.90478515625px;
+    left: 313px;
+    color: rgba(18, 31, 65, 1);
+    height: auto;
+    position: absolute;
+    font-size: 11.666030883789062px;
+    font-style: Medium;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+}
+.ukraine-map-text074 {
+    top: 343.90478515625px;
+    left: 296px;
+    color: rgba(18, 31, 65, 1);
+    height: auto;
+    opacity: 0.7;
+    position: absolute;
+    font-size: 15px;
+    font-style: Medium;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+}
+.ukraine-map-rivne {
+    top: 50.0919189453125px;
+    left: 211.46656799316406px;
+    width: 189px;
+    height: 221px;
+    position: absolute;
+}
+.ukraine-map-text076 {
+    top: 208.90478515625px;
+    left: 248px;
+    color: rgba(18, 31, 65, 1);
+    height: auto;
+    position: absolute;
+    font-size: 11.666030883789062px;
+    font-style: Medium;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+}
+.ukraine-map-text078 {
+    top: 111.90478515625px;
+    left: 289px;
+    color: rgba(18, 31, 65, 1);
+    height: auto;
+    opacity: 0.7;
+    position: absolute;
+    font-size: 24px;
+    font-style: Medium;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+}
+.ukraine-map-chernihiv {
+    top: 0px;
+    left: 598.4986572265625px;
+    width: 216px;
+    height: 233px;
+    position: absolute;
+}
+.ukraine-map-text080 {
+    top: 87.90478515625px;
+    left: 632px;
+    color: rgba(18, 31, 65, 1);
+    height: auto;
+    position: absolute;
+    font-size: 11.666030883789062px;
+    font-style: Medium;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+}
+.ukraine-map-text082 {
+    top: 148.90478515625px;
+    left: 641px;
+    color: rgba(18, 31, 65, 1);
+    height: auto;
+    opacity: 0.7;
+    position: absolute;
+    font-size: 24px;
+    font-style: Medium;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+}
+.ukraine-map-poltava {
+    top: 209.6448974609375px;
+    left: 713.5088500976562px;
+    width: 243px;
+    height: 202px;
+    position: absolute;
+}
+.ukraine-map-text084 {
+    top: 303.90478515625px;
+    left: 846px;
+    color: rgba(18, 31, 65, 1);
+    height: auto;
+    position: absolute;
+    font-size: 11.666030883789062px;
+    font-style: Medium;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+}
+.ukraine-map-text086 {
+    top: 253.90478515625px;
+    left: 758px;
+    color: rgba(18, 31, 65, 1);
+    height: auto;
+    opacity: 0.7;
+    position: absolute;
+    font-size: 24px;
+    font-style: Medium;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+}
+.ukraine-map-zhytomyr {
+    top: 81.0157470703125px;
+    left: 362.20843505859375px;
+    width: 182px;
+    height: 237px;
+    position: absolute;
+}
+.ukraine-map-text088 {
+    top: 162.90478515625px;
+    left: 379px;
+    color: rgba(18, 31, 65, 1);
+    height: auto;
+    opacity: 0.7;
+    position: absolute;
+    font-size: 24px;
+    font-style: Medium;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+}
+.ukraine-map-text090 {
+    top: 245.90478515625px;
+    left: 430px;
+    color: rgba(18, 31, 65, 1);
+    height: auto;
+    position: absolute;
+    font-size: 11.666030883789062px;
+    font-style: Medium;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+}
+.ukraine-map-vinnytsia {
+    top: 283.86181640625px;
+    left: 375.27685546875px;
+    width: 190px;
+    height: 199px;
+    position: absolute;
+}
+.ukraine-map-text092 {
+    top: 347.90478515625px;
+    left: 457px;
+    color: rgba(18, 31, 65, 1);
+    height: auto;
+    position: absolute;
+    font-size: 11.666030883789062px;
+    font-style: Medium;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+}
+.ukraine-map-text094 {
+    top: 395.90478515625px;
+    left: 394px;
+    color: rgba(18, 31, 65, 1);
+    height: auto;
+    opacity: 0.7;
+    position: absolute;
+    font-size: 24px;
+    font-style: Medium;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+}
+.ukraine-map-cherkasy {
+    top: 246.0543212890625px;
+    left: 535.5076904296875px;
+    width: 235px;
+    height: 195px;
+    position: absolute;
+}
+.ukraine-map-text096 {
+    top: 330.90478515625px;
+    left: 658px;
+    color: rgba(18, 31, 65, 1);
+    height: auto;
+    position: absolute;
+    font-size: 11.666030883789062px;
+    font-style: Medium;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+}
+.ukraine-map-text098 {
+    top: 366.90478515625px;
+    left: 547px;
+    color: rgba(18, 31, 65, 1);
+    height: auto;
+    opacity: 0.7;
+    position: absolute;
+    font-size: 24px;
+    font-style: Medium;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+}
+.ukraine-map-kyiv {
+    top: 98.658935546875px;
+    left: 511.1289367675781px;
+    width: 207px;
+    height: 264px;
+    position: absolute;
+}
+.ukraine-map-text100 {
+    top: 276.90478515625px;
+    left: 569px;
+    color: rgba(18, 31, 65, 1);
+    height: auto;
+    opacity: 0.7;
+    position: absolute;
+    font-size: 24px;
+    font-style: Medium;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+}
+.ukraine-map-kyivcity {
+    top: 205.55712890625px;
+    left: 580.26220703125px;
+    width: 42px;
+    height: 43px;
+    position: absolute;
+}
+.ukraine-map-text102 {
+    top: 226.90478515625px;
+    left: 626px;
+    color: rgba(18, 31, 65, 1);
+    height: auto;
+    position: absolute;
+    font-size: 11.666030883789062px;
+    font-style: Medium;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+}
+
+.ukraine-map-text-none{
+    display: none;
+}
